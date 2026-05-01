@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment (recréer avec: python -m venv .venv ou run_all.ps1)
+.venv/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Données et modèles générés (recréer avec generate_data.py + train_models.py)
+sonelgaz_consumption_data.csv
+models/*.pkl
+models/*.h5
+models/*.keras
+models/*.json
